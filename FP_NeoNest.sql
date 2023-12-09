@@ -69,3 +69,25 @@ ALTER TABLE transaction_item ADD CONSTRAINT transaction_item_item FOREIGN KEY tr
 ALTER TABLE transaction_item ADD CONSTRAINT transaction_item_transaction FOREIGN KEY transaction_item_transaction (transaction_tr_id)
     REFERENCES transaction (tr_id);
 
+INSERT INTO customer 
+VALUES 
+    ('CST001', 'Rudi Santoso', '081234567890', 'Jl. Panglima Sudirman No. 1'),
+    ('CST002', 'Siska Utami', '081234567891', 'Jl. Diponegoro No. 2'),
+    ('CST003', 'Budi Prasetyo', '081234567892', 'Jl. A. Yani No. 3'),
+    ('CST004', 'Dewi Wulandari', '081234567893', 'Jl. Veteran No. 4'),
+    ('CST005', 'Farhan Ramadhan', '081234567894', 'Jl. Gajah Mada No. 5'),
+    ('CST006', 'Sari Indah', '081234567895', 'Jl. Pahlawan No. 6'),
+    ('CST007', 'Arief Hidayat', '081234567896', 'Jl. Basuki Rahmat No. 7'),
+    ('CST008', 'Fitri Rahayu', '081234567897', 'Jl. Kartini No. 8'),
+    ('CST009', 'Andi Setiawan', '081234567898', 'Jl. Trunojoyo No. 9'),
+    ('CST010', 'Lina Fitriana', '081234567899', 'Jl. Raya No. 10'),
+    ('CST011', 'Rina Susanti', '081234567890', 'Jl. Gatot Subroto No. 11'),
+    ('CST012', 'Ivan Hermawan', '081234567891', 'Jl. Jenderal Sudirman No. 12'),
+    ('CST013', 'Dini Pratiwi', '081234567892', 'Jl. Ahmad Yani No. 13'),
+    ('CST014', 'Hendra Wijaya', '081234567893', 'Jl. Pattimura No. 14'),
+    ('CST015', 'Anita Sari', '081234567894', 'Jl. Taman Sari No. 15'),
+    ('CST016', 'Rizky Pratama', '081234567895', 'Jl. Kenari No. 16'),
+    ('CST017', 'Nadia Fitri', '081234567896', 'Jl. Merdeka No. 17'),
+    ('CST018', 'Arif Setiawan', '081234567897', 'Jl. Ahmad Dahlan No. 18'),
+    ('CST019', 'Dewi Rahmawati', '081234567898', 'Jl. Hayam Wuruk No. 19'),
+    ('CST020', 'Firman Kurniawan', '081234567899', 'Jl. Suroyo No. 20');
