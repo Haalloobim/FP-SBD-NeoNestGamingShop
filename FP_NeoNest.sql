@@ -1,7 +1,8 @@
+-- Define database
 CREATE DATABASE FP_NeoNest;
-
 USE DATABASE FP_NeoNest;
 
+-- Define tables
 CREATE TABLE customer (
     cst_id char(6)  NOT NULL,
     cst_name varchar(100)  NOT NULL,
@@ -69,6 +70,7 @@ ALTER TABLE transaction_item ADD CONSTRAINT transaction_item_item FOREIGN KEY tr
 ALTER TABLE transaction_item ADD CONSTRAINT transaction_item_transaction FOREIGN KEY transaction_item_transaction (transaction_tr_id)
     REFERENCES transaction (tr_id);
 
+-- Add Data 
 INSERT INTO customer 
 VALUES 
     ('CST001', 'Rudi Santoso', '081234567890', 'Jl. Panglima Sudirman No. 1'),
