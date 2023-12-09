@@ -93,3 +93,68 @@ VALUES
     ('CST018', 'Arif Setiawan', '081234567897', 'Jl. Ahmad Dahlan No. 18'),
     ('CST019', 'Dewi Rahmawati', '081234567898', 'Jl. Hayam Wuruk No. 19'),
     ('CST020', 'Firman Kurniawan', '081234567899', 'Jl. Suroyo No. 20');
+
+INSERT INTO employee 
+VALUES 
+    ('EMP001', 'Yuli Wijaya', '081234567800', 'Jl. Veteran No. 21', 'Sales'),
+    ('EMP002', 'Rina Sari', '081234567801', 'Jl. Diponegoro No. 22', 'Cashier'),
+    ('EMP003', 'Dodi Nugroho', '081234567802', 'Jl. A. Yani No. 23', 'Warehouse'),
+    ('EMP004', 'Rina Anggraini', '081234567803', 'Jl. Gajah Mada No. 24', 'Sales'),
+    ('EMP005', 'Irfan Prasetyo', '081234567804', 'Jl. Gatot Subroto No. 25', 'Cashier'),
+    ('EMP006', 'Lina Wulandari', '081234567805', 'Jl. Merdeka No. 26', 'Warehouse'),
+    ('EMP007', 'Eko Susanto', '081234567806', 'Jl. Trunojoyo No. 27', 'Sales'),
+    ('EMP008', 'Sari Indah', '081234567807', 'Jl. Kartini No. 28', 'Cashier'),
+    ('EMP009', 'Yoga Pratama', '081234567808', 'Jl. Pattimura No. 29', 'Warehouse'),
+    ('EMP010', 'Dewi Fitriana', '081234567809', 'Jl. Suroyo No. 30', 'Sales');
+
+INSERT INTO item 
+VALUES 
+    ('ITEM001', 'Laptop', 1200.00, 'Electronics'),
+    ('ITEM002', 'Smartphone', 800.00, 'Electronics'),
+    ('ITEM003', 'Coffee Maker', 50.00, 'Appliances'),
+    ('ITEM004', 'Toaster', 30.00, 'Appliances'),
+    ('ITEM005', 'Chair', 50.00, 'Furniture'),
+    ('ITEM006', 'Desk', 100.00, 'Furniture'),
+    ('ITEM007', 'T-shirt', 15.00, 'Clothing'),
+    ('ITEM008', 'Jeans', 40.00, 'Clothing'),
+    ('ITEM009', 'Running Shoes', 60.00, 'Footwear'),
+    ('ITEM010', 'Backpack', 25.00, 'Accessories');
+
+INSERT INTO membership 
+VALUES 
+    ('MBR001', 'rudi@email.com', '2023-01-01', '2023-12-31', 100, 'CST001'),
+    ('MBR002', 'siska@email.com', '2023-02-01', '2023-12-31', 80, 'CST002'),
+    ('MBR003', 'budi@email.com', '2023-03-01', '2023-12-31', 120, 'CST003'),
+    ('MBR004', 'dewi@email.com', '2023-04-01', '2023-12-31', 150, 'CST004'),
+    ('MBR005', 'farhan@email.com', '2023-05-01', '2023-12-31', 90, 'CST005'),
+    ('MBR006', 'sari@email.com', '2023-06-01', '2023-12-31', 110, 'CST006'),
+    ('MBR007', 'arief@email.com', '2023-07-01', '2023-12-31', 130, 'CST007'),
+    ('MBR008', 'fitri@email.com', '2023-08-01', '2023-12-31', 75, 'CST008'),
+    ('MBR009', 'andi@email.com', '2023-09-01', '2023-12-31', 85, 'CST009'),
+    ('MBR010', 'lina@email.com', '2023-10-01', '2023-12-31', 95, 'CST010');
+
+INSERT INTO transaction 
+VALUES 
+    ('TR001', 300.00, '2023-01-15', 'Credit Card', 'CST001', 'EMP001'),
+    ('TR002', 150.00, '2023-02-20', 'Cash', 'CST002', 'EMP002'),
+    ('TR003', 200.00, '2023-03-25', 'Debit Card', 'CST003', 'EMP003'),
+    ('TR004', 80.00, '2023-04-10', 'Cash', 'CST004', 'EMP004'),
+    ('TR005', 120.00, '2023-05-05', 'Credit Card', 'CST005', 'EMP005'),
+    ('TR006', 90.00, '2023-06-12', 'Cash', 'CST006', 'EMP006'),
+    ('TR007', 110.00, '2023-07-18', 'Debit Card', 'CST007', 'EMP007'),
+    ('TR008', 70.00, '2023-08-22', 'Cash', 'CST008', 'EMP008'),
+    ('TR009', 100.00, '2023-09-30', 'Credit Card', 'CST009', 'EMP009'),
+    ('TR010', 50.00, '2023-10-15', 'Cash', 'CST010', 'EMP010');
+
+INSERT INTO transaction_item 
+VALUES 
+    ('TR001', 'ITEM001', 2),
+    ('TR002', 'ITEM003', 1),
+    ('TR003', 'ITEM005', 3),
+    ('TR004', 'ITEM007', 1),
+    ('TR005', 'ITEM009', 2),
+    ('TR006', 'ITEM002', 1),
+    ('TR007', 'ITEM006', 2),
+    ('TR008', 'ITEM008', 1),
+    ('TR009', 'ITEM004', 2),
+    ('TR010', 'ITEM010', 3);
