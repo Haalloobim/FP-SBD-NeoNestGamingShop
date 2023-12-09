@@ -1,6 +1,6 @@
 -- Define database
 CREATE DATABASE FP_NeoNest;
-USE DATABASE FP_NeoNest;
+USE FP_NeoNest;
 
 -- Define tables
 CREATE TABLE customer (
