@@ -118,10 +118,9 @@ VALUES
     ('ITM007', 'Headset', 800000.00, 'Electronics'),
     ('ITM008', 'Monitor', 3500000.00, 'Electronics'),
     ('ITM009', 'Deskmate', 500000.00, 'Accessories'),
-    ('ITM010', 'Mousepad', 200000.00, 'Accessories')
+    ('ITM010', 'Mousepad', 200000.00, 'Accessories'),
     ('ITM011', 'Console', 12000000.00, 'Electronics'),
     ('ITM012', 'Controller', 800000.00, 'Electronics');
-
 
 INSERT INTO membership 
 VALUES 
@@ -136,28 +135,28 @@ VALUES
     ('MBR009', 'andi@email.com', '2023-09-01', '2023-12-31', 85, 'CST009'),
     ('MBR010', 'lina@email.com', '2023-10-01', '2023-12-31', 95, 'CST010');
 
-INSERT INTO transaction 
-VALUES 
-    ('TR001', 4200000.00, '2023-01-15', 'Credit Card', 'CST001', 'EMP001'),
-    ('TR002', 2100000.00, '2023-02-20', 'Cash', 'CST002', 'EMP002'),
-    ('TR003', 2800000.00, '2023-03-25', 'Debit Card', 'CST003', 'EMP003'),
-    ('TR004', 1120000.00, '2023-04-10', 'Cash', 'CST004', 'EMP004'),
-    ('TR005', 1680000.00, '2023-05-05', 'Credit Card', 'CST005', 'EMP005'),
-    ('TR006', 1260000.00, '2023-06-12', 'Cash', 'CST006', 'EMP006'),
-    ('TR007', 1540000.00, '2023-07-18', 'Debit Card', 'CST007', 'EMP007'),
-    ('TR008', 980000.00, '2023-08-22', 'Cash', 'CST008', 'EMP008'),
-    ('TR009', 1400000.00, '2023-09-30', 'Credit Card', 'CST009', 'EMP009'),
-    ('TR010', 700000.00, '2023-10-15', 'Cash', 'CST010', 'EMP010');
+INSERT INTO transaction
+VALUES
+    ('TR001', 2500000.00, '2023-12-01', 'Credit Card', 'CST001', 'EMP001'),
+    ('TR002', 12000000.00, '2023-12-02', 'Cash', 'CST002', 'EMP002'),
+    ('TR003', 5000000.00, '2023-12-03', 'Debit Card', 'CST003', 'EMP003'),
+    ('TR004', 8000000.00, '2023-12-04', 'Credit Card', 'CST004', 'EMP004'),
+    ('TR005', 1500000.00, '2023-12-05', 'Cash', 'CST005', 'EMP005'),
+    ('TR006', 3000000.00, '2023-12-06', 'Debit Card', 'CST006', 'EMP006'),
+    ('TR007', 2000000.00, '2023-12-07', 'Credit Card', 'CST007', 'EMP007'),
+    ('TR008', 3500000.00, '2023-12-08', 'Cash', 'CST008', 'EMP008'),
+    ('TR009', 800000.00, '2023-12-09', 'Debit Card', 'CST009', 'EMP009'),
+    ('TR010', 12000000.00, '2023-12-10', 'Credit Card', 'CST010', 'EMP010');
 
-INSERT INTO transaction_item 
-VALUES 
-    ('TR001', 'ITM001', 2),
-    ('TR002', 'ITM003', 1),
-    ('TR003', 'ITM005', 3),
-    ('TR004', 'ITM007', 1),
-    ('TR005', 'ITM009', 2),
-    ('TR006', 'ITM002', 1),
-    ('TR007', 'ITM006', 2),
+INSERT INTO transaction_item
+VALUES
+    ('TR001', 'ITM005', 2),
+    ('TR002', 'ITM011', 1),
+    ('TR003', 'ITM008', 1),
+    ('TR004', 'ITM004', 3),
+    ('TR005', 'ITM005', 1),
+    ('TR006', 'ITM006', 1),
+    ('TR007', 'ITM009', 2),
     ('TR008', 'ITM008', 1),
-    ('TR009', 'ITM004', 2),
-    ('TR010', 'ITM010', 3);
+    ('TR009', 'ITM010', 3),
+    ('TR010', 'ITM012', 1);
