@@ -111,14 +111,18 @@ INSERT INTO item
 VALUES 
     ('ITM001', 'Laptop', 16800000.00, 'Electronics'),
     ('ITM002', 'Smartphone', 11200000.00, 'Electronics'),
-    ('ITM003', 'Coffee Maker', 700000.00, 'Appliances'),
-    ('ITM004', 'Toaster', 420000.00, 'Appliances'),
-    ('ITM005', 'Chair', 700000.00, 'Furniture'),
-    ('ITM006', 'Desk', 1400000.00, 'Furniture'),
-    ('ITM007', 'T-shirt', 210000.00, 'Clothing'),
-    ('ITM008', 'Jeans', 560000.00, 'Clothing'),
-    ('ITM009', 'Running Shoes', 840000.00, 'Footwear'),
-    ('ITM010', 'Backpack', 350000.00, 'Accessories');
+    ('ITM003', 'Mouse', 1200000.00, 'Electronics'),
+    ('ITM004', 'Keyboard', 1500000.00, 'Electronics'),
+    ('ITM005', 'Chair', 2500000.00, 'Furniture'),
+    ('ITM006', 'Desk', 3000000.00, 'Furniture'),
+    ('ITM007', 'Headset', 800000.00, 'Electronics'),
+    ('ITM008', 'Monitor', 3500000.00, 'Electronics'),
+    ('ITM009', 'Deskmate', 500000.00, 'Accessories'),
+    ('ITM010', 'Mousepad', 200000.00, 'Accessories')
+    ('ITM011', 'Console', 12000000.00, 'Electronics'),
+    ('ITM012', 'Controller', 800000.00, 'Electronics');
+
+
 INSERT INTO membership 
 VALUES 
     ('MBR001', 'rudi@email.com', '2023-01-01', '2023-12-31', 100, 'CST001'),
