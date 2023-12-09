@@ -109,16 +109,16 @@ VALUES
 
 INSERT INTO item 
 VALUES 
-    ('ITEM001', 'Laptop', 1200.00, 'Electronics'),
-    ('ITEM002', 'Smartphone', 800.00, 'Electronics'),
-    ('ITEM003', 'Coffee Maker', 50.00, 'Appliances'),
-    ('ITEM004', 'Toaster', 30.00, 'Appliances'),
-    ('ITEM005', 'Chair', 50.00, 'Furniture'),
-    ('ITEM006', 'Desk', 100.00, 'Furniture'),
-    ('ITEM007', 'T-shirt', 15.00, 'Clothing'),
-    ('ITEM008', 'Jeans', 40.00, 'Clothing'),
-    ('ITEM009', 'Running Shoes', 60.00, 'Footwear'),
-    ('ITEM010', 'Backpack', 25.00, 'Accessories');
+    ('ITEM001', 'Laptop', 16800000.00, 'Electronics'),
+    ('ITEM002', 'Smartphone', 11200000.00, 'Electronics'),
+    ('ITEM003', 'Coffee Maker', 700000.00, 'Appliances'),
+    ('ITEM004', 'Toaster', 420000.00, 'Appliances'),
+    ('ITEM005', 'Chair', 700000.00, 'Furniture'),
+    ('ITEM006', 'Desk', 1400000.00, 'Furniture'),
+    ('ITEM007', 'T-shirt', 210000.00, 'Clothing'),
+    ('ITEM008', 'Jeans', 560000.00, 'Clothing'),
+    ('ITEM009', 'Running Shoes', 840000.00, 'Footwear'),
+    ('ITEM010', 'Backpack', 350000.00, 'Accessories');
 
 INSERT INTO membership 
 VALUES 
