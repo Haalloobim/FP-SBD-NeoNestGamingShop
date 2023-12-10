@@ -110,9 +110,9 @@ VALUES
     ('EMP007', 'Eko Susanto', '081234567806', 'Jl. Trunojoyo No. 27', 'Sales'),
     ('EMP008', 'Sari Indah', '081234567807', 'Jl. Kartini No. 28', 'Cashier'),
     ('EMP009', 'Yoga Pratama', '081234567808', 'Jl. Pattimura No. 29', 'Warehouse'),
-    ('EMP010', 'Dewi Fitriana', '081234567809', 'Jl. Suroyo No. 30', 'Sales'),
+    ('EMP010', 'Dewi Fitriana', '081234567809', 'Jl. Suroyo No. 30', 'Cashier'),
     ('EMP011', 'Agus Budiawan', '081243562329', 'Jl. Budi Pekerti No. 23', 'Sales'),
-    ('EMP012', 'Sentosa Adi', '081243285109', 'Jl. Kertajaya No. 37', 'Manager');
+    ('EMP012', 'Sentosa Adi', '081243285109', 'Jl. Kertajaya No. 37', 'Cashier');
 
 INSERT INTO item 
 VALUES 
@@ -145,17 +145,22 @@ VALUES
 
 INSERT INTO transaction
 VALUES
-    ('TR002', 12000000.00, '2023-12-02', 'Cash', 'CST002', 'EMP002'),
-    ('TR005', 2500000.00, '2023-12-05', 'Cash', 'CST005', 'EMP005'),
-    ('TR008', 3500000.00, '2023-12-08', 'Cash', 'CST008', 'EMP008'),
-    ('TR001', 5000000.00, '2023-12-01', 'Credit Card', 'CST001', 'EMP001'),
-    ('TR004', 4500000.00, '2023-12-04', 'Credit Card', 'CST004', 'EMP004'),
-    ('TR007', 1000000.00, '2023-12-07', 'Credit Card', 'CST007', 'EMP007'),
-    ('TR010', 800000.00, '2023-12-10', 'Credit Card', 'CST010', 'EMP010'),
-    ('TR003', 3500000.00, '2023-12-03', 'Debit Card', 'CST003', 'EMP003'),
-    ('TR006', 3000000.00, '2023-12-06', 'Debit Card', 'CST006', 'EMP006'),
-    ('TR009', 600000.00, '2023-12-09', 'Debit Card', 'CST009', 'EMP009');
-
+    ('TR001', 5000000.00, '2023-05-01', 'Credit Card', 'CST001', 'EMP005'),
+    ('TR002', 12000000.00, '2023-04-02', 'Cash', 'CST002', 'EMP002'),
+    ('TR003', 3500000.00, '2023-09-13', 'Debit Card', 'CST003', 'EMP008'),
+    ('TR004', 4500000.00, '2023-02-04', 'Credit Card', 'CST004', 'EMP008'),
+    ('TR005', 2500000.00, '2023-04-15', 'Cash', 'CST005', 'EMP002'),
+    ('TR006', 3000000.00, '2023-10-06', 'Debit Card', 'CST006', 'EMP010'),
+    ('TR007', 1000000.00, '2023-11-07', 'Credit Card', 'CST007', 'EMP012'),
+    ('TR008', 3500000.00, '2023-02-08', 'Cash', 'CST008', 'EMP008'),
+    ('TR009', 600000.00, '2023-07-09', 'Debit Card', 'CST009', 'EMP002'),
+    ('TR010', 800000.00, '2023-02-10', 'Credit Card', 'CST010', 'EMP005'),
+    ('TR011', 1000000.00, '2023-10-27', 'Cash', 'CST017', 'EMP002'),
+    ('TR012', 3500000.00, '2023-08-08', 'Cash', 'CST008', 'EMP005'),
+    ('TR013', 600000.00, '2023-11-09', 'Debit Card', 'CST009', 'EMP012'),
+    ('TR014', 800000.00, '2023-07-14', 'Credit Card', 'CST010', 'EMP010'),
+    ('TR015', 600000.00, '2023-08-19', 'Debit Card', 'CST009', 'EMP008'),
+    ('TR016', 800000.00, '2023-06-18', 'Credit Card', 'CST010', 'EMP012');
 
 
 INSERT INTO transaction_item
@@ -169,4 +174,10 @@ VALUES
     ('TR007', 'ITM009', 2),
     ('TR008', 'ITM008', 1),
     ('TR009', 'ITM010', 3),
-    ('TR010', 'ITM012', 1);
+    ('TR010', 'ITM012', 1),
+    ('TR011', 'ITM002', 1),
+    ('TR012', 'ITM003', 1),
+    ('TR013', 'ITM004', 2),
+    ('TR014', 'ITM005', 3),
+    ('TR015', 'ITM007', 1),
+    ('TR016', 'ITM005', 1);
