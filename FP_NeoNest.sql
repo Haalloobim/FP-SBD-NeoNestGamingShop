@@ -83,7 +83,7 @@ VALUES
     ('CST008', 'Fitri Rahayu', '081234567897', 'Jl. Kartini No. 8'),
     ('CST009', 'Andi Setiawan', '081234567898', 'Jl. Trunojoyo No. 9'),
     ('CST010', 'Lina Fitriana', '081234567899', 'Jl. Raya No. 10'),
-    ('CST011', 'Rina Susanti', '081234567890', 'Jl. Gatot Subroto No. 11'),
+    ('CST011', 'Ajeng Susanti', '081234567890', 'Jl. Gatot Subroto No. 11'),
     ('CST012', 'Ivan Hermawan', '081234567891', 'Jl. Jenderal Sudirman No. 12'),
     ('CST013', 'Dini Pratiwi', '081234567892', 'Jl. Ahmad Yani No. 13'),
     ('CST014', 'Hendra Wijaya', '081234567893', 'Jl. Pattimura No. 14'),
@@ -91,21 +91,28 @@ VALUES
     ('CST016', 'Rizky Pratama', '081234567895', 'Jl. Kenari No. 16'),
     ('CST017', 'Nadia Fitri', '081234567896', 'Jl. Merdeka No. 17'),
     ('CST018', 'Arif Setiawan', '081234567897', 'Jl. Ahmad Dahlan No. 18'),
-    ('CST019', 'Dewi Rahmawati', '081234567898', 'Jl. Hayam Wuruk No. 19'),
-    ('CST020', 'Firman Kurniawan', '081234567899', 'Jl. Suroyo No. 20');
+    ('CST019', 'Santika Rahmawati', '081234567898', 'Jl. Hayam Wuruk No. 19'),
+    ('CST020', 'Firman Kurniawan', '081234567899', 'Jl. Suroyo No. 20'),
+    ('CST021', 'Diva Sari', '081234567800', 'Jl. Diponegoro No. 21'),
+    ('CST022', 'Dodi Nugroho', '081234567801', 'Jl. A. Yani No. 22'),
+    ('CST023', 'Rina Anggraini', '081234567802', 'Jl. Gajah Mada No. 23'),
+    ('CST024', 'Irfan Prasetyo', '081234567803', 'Jl. Gatot Subroto No. 24'),
+    ('CST025', 'Lina Wulandari', '081234567804', 'Jl. Merdeka No. 25');
 
 INSERT INTO employee 
 VALUES 
     ('EMP001', 'Yuli Wijaya', '081234567800', 'Jl. Veteran No. 21', 'Sales'),
-    ('EMP002', 'Rina Sari', '081234567801', 'Jl. Diponegoro No. 22', 'Cashier'),
+    ('EMP002', 'Ayu Sari', '081234567801', 'Jl. Diponegoro No. 22', 'Cashier'),
     ('EMP003', 'Dodi Nugroho', '081234567802', 'Jl. A. Yani No. 23', 'Warehouse'),
-    ('EMP004', 'Rina Anggraini', '081234567803', 'Jl. Gajah Mada No. 24', 'Sales'),
+    ('EMP004', 'Sulis Anggraini', '081234567803', 'Jl. Gajah Mada No. 24', 'Sales'),
     ('EMP005', 'Irfan Prasetyo', '081234567804', 'Jl. Gatot Subroto No. 25', 'Cashier'),
     ('EMP006', 'Lina Wulandari', '081234567805', 'Jl. Merdeka No. 26', 'Warehouse'),
     ('EMP007', 'Eko Susanto', '081234567806', 'Jl. Trunojoyo No. 27', 'Sales'),
     ('EMP008', 'Sari Indah', '081234567807', 'Jl. Kartini No. 28', 'Cashier'),
     ('EMP009', 'Yoga Pratama', '081234567808', 'Jl. Pattimura No. 29', 'Warehouse'),
-    ('EMP010', 'Dewi Fitriana', '081234567809', 'Jl. Suroyo No. 30', 'Sales');
+    ('EMP010', 'Dewi Fitriana', '081234567809', 'Jl. Suroyo No. 30', 'Sales'),
+    ('EMP011', 'Agus Budiawan', '081243562329', 'Jl. Budi Pekerti No. 23', 'Sales'),
+    ('EMP012', 'Sentosa Adi', '081243285109', 'Jl. Kertajaya No. 37', 'Manager');
 
 INSERT INTO item 
 VALUES 
@@ -124,16 +131,17 @@ VALUES
 
 INSERT INTO membership 
 VALUES 
-    ('MBR001', 'rudi@email.com', '2023-01-01', '2023-12-31', 100, 'CST001'),
-    ('MBR002', 'siska@email.com', '2023-02-01', '2023-12-31', 80, 'CST002'),
-    ('MBR003', 'budi@email.com', '2023-03-01', '2023-12-31', 120, 'CST003'),
-    ('MBR004', 'dewi@email.com', '2023-04-01', '2023-12-31', 150, 'CST004'),
-    ('MBR005', 'farhan@email.com', '2023-05-01', '2023-12-31', 90, 'CST005'),
-    ('MBR006', 'sari@email.com', '2023-06-01', '2023-12-31', 110, 'CST006'),
-    ('MBR007', 'arief@email.com', '2023-07-01', '2023-12-31', 130, 'CST007'),
-    ('MBR008', 'fitri@email.com', '2023-08-01', '2023-12-31', 75, 'CST008'),
-    ('MBR009', 'andi@email.com', '2023-09-01', '2023-12-31', 85, 'CST009'),
-    ('MBR010', 'lina@email.com', '2023-10-01', '2023-12-31', 95, 'CST010');
+    ('MBR001', 'rudi@gmail.com', '2023-01-01', '2023-12-31', 100, 'CST001'),
+    ('MBR002', 'siska@gmail.com', '2023-02-01', '2023-12-31', 80, 'CST002'),
+    ('MBR003', 'farhan@gmail.com', '2023-05-01', '2023-12-31', 90, 'CST005'),
+    ('MBR004', 'arief@gmail.com', '2023-07-01', '2023-12-31', 130, 'CST007'),
+    ('MBR005', 'andi@gmail.com', '2023-09-01', '2023-12-31', 85, 'CST009'),
+    ('MBR006', 'lina@gmail.com', '2023-10-01', '2023-12-31', 95, 'CST010'),
+    ('MBR007', 'ajeng@gmail.com', '2023-11-01', '2023-12-31', 110, 'CST011'),
+    ('MBR008', 'ivan@gmail.com', '2023-12-01', '2023-12-31', 120, 'CST012'),
+    ('MBR009', 'dini@gmail.com', '2023-06-01', '2023-12-31', 105, 'CST013'),
+    ('MBR010', 'rizky@gmail.com', '2023-08-01', '2023-12-31', 125, 'CST016'),
+    ('MBR011', 'arif@gmail.com', '2023-03-01', '2023-12-31', 115, 'CST018');
 
 INSERT INTO transaction
 VALUES
