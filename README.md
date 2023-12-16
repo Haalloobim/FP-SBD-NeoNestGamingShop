@@ -26,3 +26,7 @@ for an in-depth look into the database implementation and query samples.
 
 ## PDM 
 ![NeoNest PDM](./src/PDM_NeoNest.png)
+
+## QUERY
+
+[SQL Queries](./FP_NeoNest.sql)
