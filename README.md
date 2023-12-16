@@ -20,3 +20,9 @@ for an in-depth look into the database implementation and query samples.
 - Every transaction in the Gaming House will be stored in a different entity called transaction.	
 - NeoNest Gaming Store uses	 a 6-digit ID for each table. Example for transaction entities TR0001, TR0002, TR0003
 - Not all employee have to handle transaction because maybe they have the different job section
+
+## CDM 
+![NeoNest CDM](./src/CDM_NeoNest.png)
+
+## PDM 
+![NeoNest PDM](./src/PDM_NeoNest.png)
